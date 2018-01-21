@@ -118,3 +118,10 @@ print("\f")  # formfeed
 
 
 # Exercise 11
+print("How old are you?", end = " ")
+age = int(input())
+print(f"You're {age} years old")
+print(type(age))
+
+
+# Exercise 12
