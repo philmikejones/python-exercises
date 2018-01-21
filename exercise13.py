@@ -6,3 +6,11 @@ print(f"The script is called: {script}")
 print(f"The first argument is: {first}")
 print(f"The second argument is: {second}")
 print(f"The third argument is: {third}")
+
+fourth = int(input("What's the fourth argument? "))
+
+if type(fourth) == int:
+    print(f"{fourth} is an integer")
+
+print(type(fourth))
+print(f"The fourth argument (with input()) is: {fourth}")
