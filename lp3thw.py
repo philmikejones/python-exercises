@@ -80,3 +80,38 @@ print(formatter.format(
 ))
 
 print(type("This is a string"))
+
+# Excercise 9
+days = "Mon Tue Wed Thu Fri Sat Sun"
+months = "Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec\n"
+
+print(days)
+# months are on new lines
+print(months)
+
+print("""
+Use three quotation marks (\"\"\") to
+print on multiple lines
+from one print() call
+""")
+
+# Exercise 10
+tabby_cat = "\tindented with tab"
+persian_cat = "Split on\na line"
+backslash_cat = "I'm \\ a \\ cat"
+fat_cat = """
+I'll do a list:
+\t* Cat food
+\t* Fishies
+\t* Catnip\n\t* Grass
+"""
+
+print(tabby_cat)
+print(persian_cat)
+print(backslash_cat)
+print(fat_cat)
+
+print("\a")  # an ASCII bell?
+print("\N{check mark}")  # unicode check mark
+print("\u2713")  # also a unicode check mark
+print("\f")  # formfeed
