@@ -125,3 +125,5 @@ print(type(age))
 
 
 # Exercise 12
+age = input("What's your age? ")
+print(f"You're {age} years old")
