@@ -1,10 +1,10 @@
-# Excercise 1
+# Exercise 1
 print("Hello World")
 print("""Hi this
 is a multi-line string
 """)
 
-# Excercise 3
+# Exercise 3
 # Counting
 x = 1 + 3
 y = 1 + 3.3
@@ -16,7 +16,7 @@ print(x > y)
 print("The remainder of 13 / 5 is", 13 % 5)
 print("The remainder of 13 / 6 is", 13 % 6)
 
-# Excercise 4
+# Exercise 4
 cars = 20.0
 passengers = 34.0
 drivers = 16.0
@@ -29,7 +29,7 @@ print("There are", cars - drivers, "cars without drivers")
 print("There are", spaces, "spaces")
 print("There are", spaces - passengers, "unused seats")
 
-# Excercise 5
+# Exercise 5
 suit = "Spades"
 number = "Ace"
 
@@ -41,7 +41,7 @@ print(f"The temperature in celcius is {temperature_c}")
 temperature_f = ((temperature_c * 9) / 5) + 32
 print(f"The temperature in farenheit is {temperature_f}")
 
-# Excercise 6
+# Exercise 6
 print("This is a string")
 f_string = "f-string"
 print(f"This is an {f_string}")
@@ -66,7 +66,7 @@ end6 = "e"
 print(end1 + end2 + end3 + end4 + end5 + end6, end = " ")
 print("on toast")
 
-# Excercise 8
+# Exercise 8
 formatter = "{} {} {} {}"
 # .format is a method of the string variable
 print(formatter.format(1, 2, 3, 4))
@@ -81,7 +81,7 @@ print(formatter.format(
 
 print(type("This is a string"))
 
-# Excercise 9
+# Exercise 9
 days = "Mon Tue Wed Thu Fri Sat Sun"
 months = "Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec\n"
 
@@ -115,3 +115,6 @@ print("\a")  # an ASCII bell?
 print("\N{check mark}")  # unicode check mark
 print("\u2713")  # also a unicode check mark
 print("\f")  # formfeed
+
+
+# Exercise 11
