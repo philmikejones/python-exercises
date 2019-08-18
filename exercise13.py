@@ -7,7 +7,12 @@ print(f"The first argument is: {first}")
 print(f"The second argument is: {second}")
 print(f"The third argument is: {third}")
 
-fourth = int(input("What's the fourth argument? "))
+fourth = input("What's the fourth argument? ")
+
+try:
+    fourth = int(fourth)
+except ValueError:
+    print(f"{fourth} is not an integer")
 
 if type(fourth) == int:
     print(f"{fourth} is an integer")
